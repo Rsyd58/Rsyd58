@@ -3,7 +3,7 @@
 Real Name: Muhammad Ibnu Sina Rasyid AlKautsar
 A part dev of [MINT](https://t.me/MiuiBGST).
 
-I'm currently publicly reachable on Twitter and [Telegram](https://t.me/Rsyd58) English and Indonesian only.
+I'm currently publicly reachable on [Telegram](https://t.me/Rsyd58) English and Indonesian only.
 
 ##
 
