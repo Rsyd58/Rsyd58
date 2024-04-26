@@ -1,5 +1,6 @@
-## Welcome to my profile! Or...maybe it is.
+## Welcome to my profile!
 
+Real Name: Muhammad Ibnu Sina Rasyid AlKautsar
 A part dev of [MINT](https://t.me/MiuiBGST).
 
 I'm currently publicly reachable on Twitter and [Telegram](https://t.me/Rsyd58) English and Indonesian only.
