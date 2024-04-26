@@ -1,6 +1,6 @@
 ## Welcome to my profile! Or...maybe it is.
 
-A part dev of [MINT][POCO F1][REDMI 5 PLUS](https://t.me/MiuiBGST).
+A part dev of [MINT](https://t.me/MiuiBGST).
 
 I'm currently publicly reachable on Twitter and [Telegram](https://t.me/Rsyd58) English and Indonesian only.
 
