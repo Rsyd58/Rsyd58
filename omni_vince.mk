@@ -14,18 +14,20 @@
 # limitations under the License.
 #
 
-$(call inherit-product, $(SRC_TARGET_DIR)/product/embedded.mk)
+#$(call inherit-product, $(SRC_TARGET_DIR)/product/embedded.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from vince device
 $(call inherit-product, device/xiaomi/vince/device.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common PB stuff.
+$(call inherit-product, vendor/pb/config/common.mk)
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.hardware.keystore=msm8953 \
-    ro.treble.enabled=true
+    ro.hardware.keystore=msm8953
+#    ro.treble.enabled=true
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
     ro.bootimage.build.date.utc \
@@ -34,7 +36,7 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
 PRODUCT_NAME := omni_vince
-PRODUCT_BRAND := xiaomi
+PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5 Plus
-PRODUCT_MANUFACTURER := xiaomi
-PRODUCT_RELEASE_NAME := xiaomi Redmi 5 Plus
+PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_RELEASE_NAME := Xiaomi Redmi 5 Plus
